@@ -1,0 +1,19 @@
+@import "tailwindcss";
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.hero-background {
+    background: rgb(255,224,254);
+    background: -moz-linear-gradient(175deg, rgba(255,224,254,1) 0%, rgba(255,202,8,0.07608981092436973) 73%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(175deg, rgba(255,224,254,1) 0%, rgba(255,202,8,0.07608981092436973) 73%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(175deg, rgba(255,224,254,1) 0%, rgba(255,202,8,0.07608981092436973) 73%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe0fe",endColorstr="#ffffff",GradientType=1);
+    animation: gradientShift 6s ease infinite;
+    background-size: 100dvw 100dvh ;
+    background-repeat: no-repeat;
+  }
+  *{
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+  }
